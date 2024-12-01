@@ -1,0 +1,33 @@
+/* vector: array unidimensional
+array siempre es como un parametro por referencia  por eso no se pone ampersan
+array [5] tiene pos 0 a pos 4
+
+
+DECLARACION:
+int nros [5];                                                     //int nros[]={1,2,3,4,5}    (si dejo el corchete vacio tengo que asignarle datos ni bien lo declaro)
+int i=0;
+
+while(i<5)   // for(int i=0; i<5; i++)
+{
+    cout<<"ingrese nro"<<endl;
+    cin>>nros[i];
+    i++;
+}
+
+
+
+si declaro un numero en un for tipo un aux, cuando el for se termina el numero se elimina!!!
+
+
+void cargarVector (int v[]) 
+los corchetes se pueden dejar vacios pq declaro vector como parametro de una funcion. Sino se le puede poner numero.
+
+
+los arrays no se pasan con ampersan en las funciones
+
+cuando declaro las funciones y no solo se quieren ´poner los tipos de datos el array se escribe como tipo corcehete int []----- ejemplo int promedio( int[],int)
+
+
+
+SI TENGO UN ARRAY GRANDE Y NO LO LLENO, AL CARGAR DATOS, DEBERIA TMB DEVOLVER LA CANTIDAD DE ELEMENTOS QUE LE INGRESE AL ARRAY. LO PUEDO DEVOLVER EN EL RETURN OO COMO PARAMETRO SI LO PASO CON AMPERSANNN
+/*
